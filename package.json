@@ -1,0 +1,49 @@
+{
+  "name": "personal-bio-site",
+  "version": "1.0.0",
+  "description": "## Description This project is a work in progress.  This is a one page, personal website that is divided into three sections: About Me, Technologies, and Projects.  The current layout is achieved using flexboxes.  The About Me is a brief paragraph about who I am, and the Technologies section is a list of the front-end lanuages that I am learning: HTML, CSS, and JavaScript.  The Projects section features a flexbox of cards that contain detailed information about each project I have completed so far.  These are being displayed dynamically with JavaScript. ## Screenshots ![Personal Bio Site](screenshots/personalBioSite.png) ## How To Run 1. Clone down this repository. 2. Make sure you have http-server installed via npm.  If not get it [HERE](https://www.npmjs.com/package/http-server) 3. On the command line, run `hs -p 8080`. 4. In your browser, to go `http://localhost:8080`.",
+  "main": "src/javascripts/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production --module-bind js=babel-loader",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davideverett89/personal-bio-site.git"
+  },
+  "keywords": [],
+  "author": "David Everett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davideverett89/personal-bio-site/issues"
+  },
+  "homepage": "https://github.com/davideverett89/personal-bio-site#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.1",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "firebase": "^7.12.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}
