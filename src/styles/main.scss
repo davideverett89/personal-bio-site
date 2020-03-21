@@ -1,3 +1,7 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import "~bootstrap/scss/bootstrap";
+
 * {
     padding: 0;
     margin: 0;
@@ -13,6 +17,10 @@ body {
     height: 1000px;
     margin: 0 auto;
     padding: 10px;
+}
+
+p {
+    margin: 0;
 }
 
 .bio-header {
@@ -82,7 +90,7 @@ body {
     align-items: center;
 }
 
-.card {
+.my-card {
     background-color: white;
     border: 1px solid darkgray;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -96,17 +104,18 @@ body {
     justify-content: space-around;
   }
   
-  .card:hover {
+  .my-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
-  .container {
+  .my-container {
     text-align: center;
-    padding: 2px 16px;
+    padding: 5px 2px;
   }
 
-  img {
+  .my-img {
     border-radius: 25px;
     width: 150px;
     height: 150px;
+    margin-top: 5px;
   }
