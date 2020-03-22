@@ -33,7 +33,7 @@ const projects = [
     id: 'project4',
     title: 'Placeholder 4',
     screenshot: 'https://static.boredpanda.com/blog/wp-content/uploads/2015/01/fruits0023__700.jpg',
-    description: 'This is another placeholder, this one should not appear because it is not available.',
+    description: 'This is another placeholder.',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
     available: false,
     url: 'https://github.com/davideverett89',

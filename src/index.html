@@ -7,37 +7,40 @@
     <title>David Everett</title>
 </head>
 <body class="body">
-    <nav id="nav-main" class="nav-bar">
-        <h1 id="h1" class="h1 nav-item">David Everett</h1>
-        <ul class="nav-bar-ul nav-item" id="navLinks">
-          <li><a id="navToBio" href="#bioPage">Bio</a></li>
-          <li><a id="navToTechnologies" href="#technologiesPage">Technologies</a></li>
-          <li><a id="navToProjects" href="#projectsPage">Projects</a></li>
-        </ul>
+    <nav id="nav-main" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand h1 mb-0" href="index.html"><h1 class="display-4">David Everett</h1></a>
+        <div class="collapse navbar-collapse" id="my-navbar">
+            <ul class="navbar-nav" id="navLinks">
+                <li class="nav-item active"><a class="nav-link" id="navToBio" href="#bioPage">Bio</a></li>
+                <li class="nav-item active"><a class="nav-link" id="navToTechnologies" href="#technologiesPage">Technologies</a></li>
+                <li class="nav-item active"><a class="nav-link" id="navToProjects" href="#myProjects">Projects</a></li>
+              </ul>
+        </div>
     </nav>
-    <div class="fullPage my-bio" id="bioPage">
-        <header class="bio-header">
-            <h3 class="about-me">About Me</h3>
-        <header>
+    <img class="mt-5 img-fluid" src="https://avatars2.githubusercontent.com/u/59631645?s=400&u=57590eb3fda8bbaa5c28bd7abb757edc1b936d6c&v=4" alt="My Picture"/>
+    <div class="my-5 fullPage my-bio" id="bioPage">
+        <h2 class="about-me">About Me</h2>
         <p id="my-bio">I've been interested in web development for quite some time.  I remember as a kid being curious about building websites and messing around with HTML, but there was a lot of copying and pasting going on.  Turns out that's a large part of life as a developer now.  In all seriousness, I look at the opportunity that NSS has opened up for me as the beginning of a new chapter.  I know that sounds pretty cliche, but its true.  I will have more meaningful content right here shortly, please bear with me.</p>
     </div>
-    <div class="fullPage my-tech" id="technologiesPage">
-        <header>
-            <h3>Technologies</h3>
-        </header>
+    <div class="mb-2 w-100 text-center fullPage my-tech bg-dark" id="technologiesPage">
+        <h2 id="tech-header">Technologies</h2>
         <ul class="tech">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
+            <li><i class="fab fa-git-alt fa-7x"></i></li>
+            <li><i class="fab fa-html5 fa-7x"></i></li>
+            <li><i class="fab fa-css3-alt fa-7x"></i></li>
+            <li><i class="fab fa-js fa-7x"></i></li>
+            <li><i class="fab fa-sass fa-7x"></i></li>
+            <li><i class="fab fa-github fa-7x"></i></li>
         </ul>
     </div>
-    <div class="fullPage container">
+    <div id="myProjects" class="fullPage container">
+        <h2 class="text-center"><u>My Projects<u></h2>
         <div class="fullPage projectsDiv row" id="projectsPage"></div>
     </div>
     <footer class="page-footer">
         <p>Email: davideverett1989@gmail.com</p>
-        <p><a href="https://github.com/davideverett89">GitHub</a></p>
-        <p><a href="https://www.linkedin.com/in/david-everett-22b17171/">LinkedIn</a></p>
+        <a href="https://github.com/davideverett89"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/david-everett-22b17171/"><i class="fab fa-linkedin fa-2x"></i></a>
     </footer>
 </body>
 </html>
