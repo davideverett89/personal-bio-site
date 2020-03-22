@@ -83,48 +83,12 @@ p {
     align-items: center;
 }
 
-.my-card {
-    opacity: 0.5;
-    background-color: white;
-    border: 1px solid darkgray;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    height: 450px;
-    border-radius: 15px;
-  }
-  
-  .my-card:hover {
-    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
-    opacity: 1;
-  }
-  
-  .my-content {
-    text-align: center;
-    padding: 5px 2px;
-  }
+.underline {
+    text-decoration: underline;
+}
 
-  .my-img {
-    width: 430px;
-    height: 230px;
-    margin-top: 5px;
-    border: 1px solid white;
-    border-radius: 15px;
-  }
+.fullPage {
+    margin: 50px 0;
+    padding: 20px;
+}
 
-  .underline {
-      content: "";
-      text-decoration: underline;
-  }
-
-  .fullPage {
-      margin: 50px 0;
-      padding: 20px;
-  }
-
-  .description {
-      font-size: 15px;
-  }
-
-  .card-divider {
-      margin: 10px 0;
-  }

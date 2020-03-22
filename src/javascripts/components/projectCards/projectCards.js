@@ -1,5 +1,6 @@
-import utils from '../helpers/utils';
-import projectsData from '../helpers/data/projectsData';
+import utils from '../../helpers/utils';
+import projectsData from '../../helpers/data/projectsData';
+import './projectCards.scss';
 
 const createProjectCards = () => {
   const projects = projectsData.getProjects();
