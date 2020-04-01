@@ -1,0 +1,29 @@
+{
+    "project1" : {
+        "title": "Pet Adoption",
+        "screenshot": "https://i.imgur.com/27gci7y.png",
+        "description": "This single page app allows you to filter by pet type, and even add your own pet!",
+        "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+        "available": true,
+        "url": "https://pet-adoption-ba8f9.firebaseapp.com/",
+        "githubUrl": "https://github.com/davideverett89/pet-adoption"
+    },
+    "project2" : {
+        "title": "Sorting Hat",
+        "screenshot": "https://i.imgur.com/nKdbsz2.png",
+        "description": "Just like the Sorting Hat in the Harry Potter series, this app will take your name and assign you to a Hogwarts house.  Students can also be expelled so be on your best behavior!",
+        "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+        "available": true,
+        "url": "https://sorting-hat-e963d.firebaseapp.com/",
+        "githubUrl": "https://github.com/davideverett89/sorting-hat"
+    },
+    "project3" : {
+        "title": "Bear Watcher",
+        "screenshot": "https://i.imgur.com/7u1qv8V.png",
+        "description": "Track bears in the Katmai National Park in Alaska and watch as they feast on countless salmon.",
+        "technologiesUsed": "HTML, CSS, JavaScript ES6 Modules, Version Control with Github",
+        "available": true,
+        "url": "https://bear-watcher.firebaseapp.com/",
+        "githubUrl": "https://github.com/davideverett89"
+    }
+}
