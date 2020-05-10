@@ -8,7 +8,7 @@
 </head>
 <body class="body">
     <nav id="nav-main" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand h1 mb-0" href="index.html"><h1 class="display-4">David Everett</h1></a>
+        <a id="navbar-brand" class="navbar-brand h1 mb-0" href="index.html"><h1 id="my-name-header" class="display-3">David Everett</h1></a>
         <div class="collapse navbar-collapse" id="my-navbar">
             <ul class="navbar-nav" id="navLinks">
                 <li class="nav-item active"><a class="nav-link" id="navToBio" href="#bioPage">Bio</a></li>
@@ -17,9 +17,9 @@
               </ul>
         </div>
     </nav>
-    <img class="mt-5 img-fluid" src="https://avatars2.githubusercontent.com/u/59631645?s=400&u=57590eb3fda8bbaa5c28bd7abb757edc1b936d6c&v=4" alt="My Picture"/>
+    <img class="img-fluid" src="https://imgur.com/sRdL6MQ.png" alt="My Picture"/>
     <div class="my-5 fullPage my-bio" id="bioPage">
-        <h2 class="about-me">About Me</h2>
+        <h2 class="about-me display-4">About Me</h2>
         <p id="my-bio">I've been interested in web development for quite some time.  I remember as a kid being curious about building websites and messing around with HTML, but there was a lot of copying and pasting going on.  Turns out that's a large part of life as a developer now.  In all seriousness, I look at the opportunity that NSS has opened up for me as the beginning of a new chapter.  I know that sounds pretty cliche, but its true.  I will have more meaningful content right here shortly, please bear with me.</p>
     </div>
     <div class="mb-2 w-100 text-center fullPage my-tech bg-dark" id="technologiesPage">
@@ -29,18 +29,26 @@
             <li><i class="fab fa-html5 fa-7x"></i></li>
             <li><i class="fab fa-css3-alt fa-7x"></i></li>
             <li><i class="fab fa-js fa-7x"></i></li>
+            <li><i class="fab fa-bootstrap fa-7x"></i></li>
+            <li><i class="fab fa-npm fa-7x"></i></li>
             <li><i class="fab fa-sass fa-7x"></i></li>
             <li><i class="fab fa-github fa-7x"></i></li>
+            <li><i class="fab fa-react fa-7x"></i></li>
         </ul>
     </div>
     <div id="myProjects" class="fullPage container">
-        <h2 class="text-center"><u>My Projects<u></h2>
+        <h2 id="projects-header" class="text-center display-4">My Projects</h2>
         <div class="fullPage projectsDiv row" id="projectsPage"></div>
     </div>
     <footer class="page-footer">
-        <p>Email: davideverett1989@gmail.com</p>
-        <a href="https://github.com/davideverett89"><i class="fab fa-github fa-2x"></i></a>
-        <a href="https://www.linkedin.com/in/david-everett-22b17171/"><i class="fab fa-linkedin fa-2x"></i></a>
+        <ul class="text-center">
+            <li><h4 id="footer-header">Contact Info</h4></li>
+            <li><p class="phone"><i class="fas fa-phone"></i>  (217) 343-1348</p></li>
+            <li><p class="location"><i class="fas fa-thumbtack"></i>  Nashville, Tennessee</p></li>
+            <li><a class="footer-icon" href="https://github.com/davideverett89"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a class="footer-icon" href="https://www.linkedin.com/in/david-everett-22b17171/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a target="_blank" href="mailto:davideverett1989@gmail.com">davideverett1989@gmail.com</a></li>
+        </ul>
     </footer>
 </body>
 </html>
