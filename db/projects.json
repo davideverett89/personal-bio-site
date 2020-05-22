@@ -24,6 +24,15 @@
         "technologiesUsed": "HTML, CSS, JavaScript ES6 Modules, Version Control with Github",
         "available": true,
         "url": "https://bear-watcher.firebaseapp.com/",
-        "githubUrl": "https://github.com/davideverett89"
+        "githubUrl": "https://github.com/davideverett89/bear-watcher"
+    },
+    "project4" : {
+        "title": "Firebase Pinterest",
+        "screenshot": "https://imgur.com/yujZup6.png",
+        "description": "Keep a virtual collection of interests and ideas with this simulation of Pinterest that uses Firebase and showcases full CRUD.",
+        "technologiesUsed": "Git, HTML, CSS, Webpack, JavaScript ES6 Modules, and Firebase.",
+        "available": true,
+        "url": "https://pinterest-d5c39.firebaseapp.com/",
+        "githubUrl": "https://github.com/davideverett89/pinterest"
     }
 }
