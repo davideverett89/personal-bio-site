@@ -1,7 +1,7 @@
 {
     "project1" : {
         "title": "Pet Adoption",
-        "screenshot": "src/screenshots/petAdoption-screenshot.png",
+        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1594915317/ecwo6ogv/petAdoption-screenshot_pqsrgd.png",
         "description": "This single page app allows you to filter by pet type, and even add your own pet!",
         "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         "available": true,
@@ -10,7 +10,7 @@
     },
     "project2" : {
         "title": "Sorting Hat",
-        "screenshot": "src/screenshots/sortingHat-screenshot.png",
+        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1594915344/ecwo6ogv/sortingHat-screenshot_vvrlqi.png",
         "description": "Just like the Sorting Hat in the Harry Potter series, this app will take your name and assign you to a Hogwarts house.  Students can also be expelled so be on your best behavior!",
         "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         "available": true,
@@ -19,7 +19,7 @@
     },
     "project3" : {
         "title": "Bear Watcher",
-        "screenshot": "src/screenshots/bearWatcher-screenshot.png",
+        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1594915356/ecwo6ogv/bearWatcher-screenshot_qqf3lo.png",
         "description": "Track bears in the Katmai National Park in Alaska and watch as they feast on countless salmon.",
         "technologiesUsed": "HTML, CSS, JavaScript ES6 Modules, Version Control with Github",
         "available": true,
@@ -28,7 +28,7 @@
     },
     "project4" : {
         "title": "Firebase Pinterest",
-        "screenshot": "src/screenshots/firebasePinterest-screenshot.png",
+        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1594915366/ecwo6ogv/firebasePinterest-screenshot_ncsrci.png",
         "description": "Keep a virtual collection of interests and ideas with this simulation of Pinterest that uses Firebase and showcases full CRUD.",
         "technologiesUsed": "Git, HTML, CSS, Webpack, JavaScript ES6 Modules, and Firebase.",
         "available": true,
@@ -37,7 +37,7 @@
     },
     "project5" : {
         "title": "Apparty",
-        "screenshot": "src/screenshots/apparty-screenshot.png",
+        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1594915309/ecwo6ogv/apparty-screenshot_f9xj8p.png",
         "description": "A socially distant birthday tracking and celebration app.  Create a birthday event for a friend, invite all your other friends, and remind that special someone that life still has meaning!",
         "technologiesUsed": "React, React Router DOM, Bootstrap/reactstrap, Moment.js, Axios, Firebase, Cloudinary, HTML, CSS/SCSS",
         "available": true,
