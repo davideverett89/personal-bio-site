@@ -1,5 +1,6 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import "~bootstrap/scss/bootstrap";
 
 * {
@@ -8,7 +9,8 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    // font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: beige;
     display: flex;
     flex-direction: column;
@@ -59,8 +61,8 @@ p {
     color: white;
     height: auto;
     position: absolute;
-    top: 415px;
-    left: 25px;
+    top: 425px;
+    left: 175px;
     background-color: rgba(255, 255, 255, 0);
     text-shadow:
     -1px -1px 0 #000,  
@@ -82,6 +84,11 @@ p {
 #tech-header {
     border-bottom: 1px solid white;
     padding-bottom: 5px;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
 }
 
 .my-tech {
@@ -147,6 +154,6 @@ p {
 }
 
 #footer-header {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
