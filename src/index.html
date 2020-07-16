@@ -11,28 +11,30 @@
         <a id="navbar-brand" class="navbar-brand h1 mb-0" href="index.html"><h1 id="my-name-header" class="display-3">David Everett</h1></a>
         <div class="collapse navbar-collapse" id="my-navbar">
             <ul class="navbar-nav" id="navLinks">
-                <li class="nav-item active"><a class="nav-link" id="navToBio" href="#bioPage">Bio</a></li>
-                <li class="nav-item active"><a class="nav-link" id="navToTechnologies" href="#technologiesPage">Technologies</a></li>
-                <li class="nav-item active"><a class="nav-link" id="navToProjects" href="#myProjects">Projects</a></li>
-              </ul>
+                <li class="nav-item active lead"><a class="nav-link" id="navToBio" href="#bioPage">Bio</a></li>
+                <li class="nav-item active lead"><a class="nav-link" id="navToTechnologies" href="#technologiesPage">Technologies</a></li>
+                <li class="nav-item active lead"><a class="nav-link" id="navToProjects" href="#myProjects">Projects</a></li>
+            </ul>
         </div>
     </nav>
-    <img class="img-fluid" src="https://imgur.com/sRdL6MQ.png" alt="My Picture"/>
-    <div class="my-5 fullPage my-bio" id="bioPage">
-        <h2 class="about-me display-4">About Me</h2>
-        <p id="my-bio">My interest in the web and web development began in the mid 90's when we got our first family computer and had access to the Internet for the first time.
-            I was immediately fascinated by the nearly instant access to information on any topic my young mind could possibly be curious about.  
-            There was now a conduit for me to experience a little piece of whatever I wanted, and I could directly interact with it and immerse myself in it.  I wanted to harness this magic for my own use.
-            This interest carried on into the days of Myspace, where I would use HTML to try and spruce up my profile with band backgrounds, colors, animations, and GIFs in order to impress my friends.  
-            The jury's still out on how well that worked, and there was a lot of copy and paste going on, but the seed that had been planted many years earlier was now beginning to sprout.
-            Web development was put aside for many years in order to pursue another passion of mine: music.  I now find myself coming full circle back to web development.  
-            I've realized that the combination of creativity and problem solving that it requires is something that I crave, much like music.
-            Also like music, I can use web developmemt to enhance the lives of others and this is ultimately what I hope to do.
-        </p>
+    <div>
+        <img class="img-fluid my-image" src="https://imgur.com/sRdL6MQ.png" alt="My Picture"/>
+        <div class="my-5 fullPage my-bio col-6" id="bioPage">
+            <h2 class="about-me display-4">About Me</h2>
+            <p id="my-bio-text">My interest in the web and web development began in the mid 90's when we got our first family computer and had access to the Internet for the first time.
+                I was immediately fascinated by the nearly instant access to information on any topic my young mind could possibly be curious about.  
+                There was now a conduit for me to experience a little piece of whatever I wanted, and I could directly interact with it and immerse myself in it.  I wanted to harness this magic for my own use.
+                This interest carried on into the days of Myspace, where I would use HTML to try and spruce up my profile with band backgrounds, colors, animations, and GIFs in order to impress my friends.  
+                The jury's still out on how well that worked, and there was a lot of copy and paste going on, but the seed that had been planted many years earlier was now beginning to sprout.
+                Web development was put aside for many years in order to pursue another passion of mine: music.  I now find myself coming full circle back to web development.  
+                I've realized that the combination of creativity and problem solving that it requires is something that I crave, much like music.
+                Also like music, I can use web developmemt to enhance the lives of others and this is ultimately what I hope to do.
+            </p>
+        </div>
     </div>
     <div class="mb-2 w-100 text-center fullPage my-tech bg-dark" id="technologiesPage">
-        <h2 id="tech-header">Technologies</h2>
-        <ul class="tech">
+        <h2 id="tech-header" class="tech display-4">Technologies</h2>
+        <ul class="my-auto tech">
             <li><i class="fab fa-git-alt fa-7x"></i></li>
             <li><i class="fab fa-github fa-7x"></i></li>
             <li><i class="fab fa-html5 fa-7x"></i></li>
@@ -46,16 +48,16 @@
     </div>
     <div id="myProjects" class="fullPage container">
         <h2 id="projects-header" class="text-center display-4">My Projects</h2>
-        <div class="fullPage projectsDiv row" id="projectsPage"></div>
+        <div class="col-12 fullPage projectsDiv row" id="projectsPage"></div>
     </div>
-    <footer class="page-footer">
-        <ul class="text-center">
-            <li><h4 id="footer-header">Contact Info</h4></li>
-            <li><p class="phone"><i class="fas fa-phone"></i>  (217) 343-1348</p></li>
-            <li><p class="location"><i class="fas fa-thumbtack"></i>  Nashville, Tennessee</p></li>
+    <footer class="page-footer d-flex flex-column bg-dark">
+        <h4 id="footer-header">Contact Info</h4>
+        <ul class="text-center d-flex flex-row justify-content-center align-items-center">
+            <li><span class="phone"><i class="fas fa-phone"></i>  (217) 343-1348</span></li>
+            <li><span class="location"><i class="fas fa-thumbtack"></i>  Nashville, Tennessee</span></li>
             <li><a class="footer-icon" href="https://github.com/davideverett89"><i class="fab fa-github fa-2x"></i></a></li>
             <li><a class="footer-icon" href="https://www.linkedin.com/in/david-everett-22b17171/"><i class="fab fa-linkedin fa-2x"></i></a></li>
-            <li><a target="_blank" href="mailto:davideverett1989@gmail.com">davideverett1989@gmail.com</a></li>
+            <li><a class="footer-icon" target="_blank" href="mailto:davideverett1989@gmail.com"><i class="far fa-envelope-open fa-2x"></i></a></li>
         </ul>
     </footer>
 </body>

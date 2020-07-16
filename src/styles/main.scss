@@ -26,6 +26,11 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid white;
+}
+
+#navLinks a {
+    border-radius: 5px;
 }
 
 #navLinks a:hover {
@@ -46,12 +51,28 @@ p {
 }
 
 .about-me {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .my-bio {
     font-size: 18px;
-    width: 75%;
+    color: white;
+    height: auto;
+    position: absolute;
+    top: 415px;
+    left: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+.my-image {
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .my-bio h3 {
@@ -70,6 +91,7 @@ p {
     justify-content: flex-start;
     align-items: center;
     padding: 15px;
+    min-height: 400px;
 }
 
 .tech {
@@ -87,12 +109,10 @@ p {
 }
 
 .page-footer {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    height: 300px;
-    margin: 30px auto;
-    justify-content: space-evenly;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
     align-items: center;
 }
 
@@ -107,7 +127,6 @@ p {
 
 #projects-header {
     border-bottom: 1px solid black;
-    // width: 75%;
     margin: 0 auto;
     padding-bottom: 25px;
 }
@@ -116,20 +135,15 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
-}
-
-.underline {
-    text-decoration: underline;
+    align-items: flex-start;
 }
 
 .fullPage {
-    margin: 50px 0;
     padding: 20px;
 }
 
 .footer-icon {
-    color: black;
+    color: white;
 }
 
 #footer-header {
