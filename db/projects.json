@@ -14,7 +14,7 @@
         "description": "Welcome to the website for the band Battleheart!  This was my first group project at NSS.",
         "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         "available": true,
-        "url": "https://bands-battleheart.firebaseapp.com/index.html",
+        "url": "https://bands-battleheart.firebaseapp.com/",
         "githubUrl": "https://github.com/davideverett89/bands-battleheart"
     },
     "project3" : {
