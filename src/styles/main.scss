@@ -17,6 +17,7 @@
             #my-navbar {
                 #navLinks a {
                     border-radius: 5px;
+                    font-size: 30px;
                 }
                 
                 #navLinks a:hover {
@@ -34,7 +35,7 @@
         }
         .text-image-container {
             display: block;
-            .my-image {
+            .nash-image {
                 position: relative;
                 top: 0;
                 left: 0;
@@ -44,21 +45,26 @@
                 color: white;
                 height: auto;
                 position: absolute;
-                top: 190px;
-                left: 15px;
+                top: 300px;
                 background: rgba(0, 0, 0, 0.5);
                 text-shadow:
                 -1px -1px 0 #000,  
                  1px -1px 0 #000,
                  -1px 1px 0 #000,
                   1px 1px 0 #000;
-                  .my-bio-text {
-                      font-size: 24px;
+                  .row-div {
+                    .img-container {
+                        .my-image {
+                            height: auto;
+                            border: 1px solid white;
+                        }
+                    }
+                    .text-col {
+                        .my-bio-text {
+                            font-size: 24px;
+                        }
+                    }
                   }
-            }
-            
-            .my-bio h3 {
-                margin-bottom: 15px;
             }
         }
         .my-tech {
@@ -68,6 +74,7 @@
             justify-content: flex-start;
             align-items: center;
             padding: 30px;
+            min-height: 385px;
             #tech-header {
                 border-bottom: 1px solid white;
                 padding-bottom: 5px;
