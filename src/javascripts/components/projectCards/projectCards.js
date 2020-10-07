@@ -8,8 +8,8 @@ const createProjectCards = () => {
       let domString = '';
       projects.forEach((project) => {
         if (project.available) {
-          domString += '<div class="card-divider col-4">';
-          domString += `  <div id="${project.id}" class="bg-dark text-center text-white my-card pt-1 d-flex flex-column justify-content-center align-items-center">`;
+          domString += '<div class="card-divider col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3">';
+          domString += `  <div id="${project.id}" class="text-center text-white my-card pt-1 d-flex flex-column justify-content-center align-items-center">`;
           domString += `    <h5 class="mt-1"><b>${project.title}</b></h5>`;
           domString += '    <div class="card-body d-flex flex-column justify-content-between align-items-center my-content flex-grow-1">';
           domString += '      <div class="px-3">';
