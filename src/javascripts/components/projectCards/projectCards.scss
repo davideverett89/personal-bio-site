@@ -1,13 +1,14 @@
 .card-divider {
   margin: 10px 0;
   .my-card {
+    background-color: #333;
     font-family: 'Nunito Sans', sans-serif;
     border: 1px solid darkgray;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 15px;
     box-shadow: 5px 10px 20px 0 rgba(0,0,0,0.8);
-    height: 457px;
+    height: auto;
     .my-content {
       text-align: center;
       div {

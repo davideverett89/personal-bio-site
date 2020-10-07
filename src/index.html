@@ -7,7 +7,7 @@
         <title>David Everett</title>
     </head>
     <body>
-        <nav id="nav-main" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav id="nav-main" class="navbar navbar-expand-lg navbar-dark">
             <a id="navbar-brand" class="navbar-brand h1 mb-0 d-flex justify-content-center align-items-center" href="index.html">
                 <h1 id="my-name-header" class="display-4">David Everett</h1>
                 <span class="mx-3">Software Developer</span>
@@ -16,57 +16,58 @@
                 <ul class="navbar-nav ml-auto" id="navLinks">
                     <li class="nav-item active lead"><a class="nav-link" id="navToBio" href="#bioPage">Bio</a></li>
                     <li class="nav-item active lead"><a class="nav-link" id="navToTechnologies" href="#technologiesPage">Technologies</a></li>
-                    <li class="nav-item active lead"><a class="nav-link" id="navToProjects" href="#myProjects">Projects</a></li>
+                    <li class="nav-item active lead"><a class="nav-link" id="navToProjects" href="#projects">Projects</a></li>
                     <li class="nav-item active lead"><a class="nav-link" id="navToContact" href="#myContactInfo">Contact</a></li>
                 </ul>
             </div>
         </nav>
-        <div class="text-image-container">
-            <img class="img-fluid nash-image col-12 p-0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Nashville_From_Fort_Negley.jpg/1600px-Nashville_From_Fort_Negley.jpg" alt="Nashville"/>
-            <div id="bioPage" class="p-5 my-bio container-fluid">
-                <div class="my-auto row row-div">
-                    <div class="my-auto px-5 col-6">
-                        <div class="bg-dark img-container">
-                            <img class="img-fluid my-image" src="https://imgur.com/sq3HcIL.png" alt="My Picture" />
+        <main>
+            <img class="img-fluid nash-image col-12 m-auto p-0" src="./screenshots/Nashville_From_Fort_Negley.jpg" alt="Nashville"/>
+            <a id="bioPage" class="anchor"></a>
+            <section class="mt-5 text-container d-flex flex-column justify-content-start align-items-center">
+                <div class="p-5 my-bio container-fluid d-flex flex-column justify-content-around align-items-center">
+                    <!-- <div class="my-auto row bio-row"> -->
+                    <div class="m-auto px-5 col-6">
+                        <div class="img-container">
+                            <img class="img-fluid my-image rounded" src="https://imgur.com/sq3HcIL.png" alt="My Picture" />
                         </div>
                     </div>
-                    <div class="col-6 text-col">
+                    <!-- </div> -->
+                    <!-- <div class="mt-2 row"> -->
+                    <div class="my-5 px-5 mx-auto d-flex flex-column justify-content-center align-items-center col-9 text-col">
                         <p class="my-bio-text">
-                            I am a web developer and musician from central Illinois living in Nashville, TN since February of 2015.
-                            Currently I am a student at Nashville Software School, set to graduate in September of 2020.  I initially started the course part-time as a member of Evening Cohort 11 while I continued to work full time. 
-                            I was already certain going into the course that this was the next direction I wanted to take, but I soon experienced the reawakening of a deep passion for web development that had long been set aside since childhood.  
-                            It felt like I was being reunited with an old friend and I was ready to put all my chips in and do whatever it took to make this forgotten dream a reality.
-                        </p>
-                        <br>
-                        <p class="my-bio-text">
-                            After completing the front-end section of the course in July of this year, I transferred to Cohort 40 as a full-time student and began taking a deep dive into Python/Django for my back-end studies.  
-                            I find that web development allows me to thrive in the same way that music does: by allowing me to combine analytic, problem solving with creativity.  At the end of the day, I hope to use my skills in both areas to enhance the lives of others.
+                            My passion for web development began as a teenager, tinkering with HTML and imagining a day when I could build full scale applications. 
+                            Now, as a graduate of Web Development Cohort 40 at Nashville Software School, I am poised to build the applications I always dreamed of and provide solutions to real world problems. 
+                            My ultimate goal is to use these skills that I have learned to improve the lives others.
                         </p>
                     </div>
+                    <!-- </div> -->
                 </div>
-            </div>
-        </div>
-        <div class="mb-2 w-100 text-center fullPage my-tech bg-dark" id="technologiesPage">
-            <h2 id="tech-header" class="tech display-4">Technologies</h2>
-            <ul class="my-auto tech">
-                <li><i class="fab fa-git-alt fa-7x"></i></li>
-                <li><i class="fab fa-github fa-7x"></i></li>
-                <li><i class="fab fa-html5 fa-7x"></i></li>
-                <li><i class="fab fa-css3-alt fa-7x"></i></li>
-                <li><i class="fab fa-js fa-7x"></i></li>
-                <li><i class="fab fa-bootstrap fa-7x"></i></li>
-                <li><i class="fab fa-sass fa-7x"></i></li>
-                <li><i class="fab fa-node-js fa-7x"></i></li>
-                <li><i class="fab fa-npm fa-7x"></i></li>
-                <li><i class="fab fa-react fa-7x"></i></li>
-                <li><i class="fab fa-python fa-7x"></i></li>
-            </ul>
-        </div>
-        <div id="myProjects" class="fullPage container">
-            <h2 id="projects-header" class="text-center display-3">Projects</h2>
-            <div class="col-12 fullPage projectsDiv row" id="projectsPage"></div>
-        </div>
-        <footer id="myContactInfo" class="page-footer d-flex flex-column bg-dark">
+            </section>
+            <a id="technologiesPage" class="anchor"></a>
+            <section class="w-100 text-center fullPage my-tech">
+                <h2 id="tech-header" class="mt-4 tech display-4">Technologies</h2>
+                <ul class="my-auto tech">
+                    <li><i class="fab fa-git-alt fa-7x"></i></li>
+                    <li><i class="fab fa-github fa-7x"></i></li>
+                    <li><i class="fab fa-html5 fa-7x"></i></li>
+                    <li><i class="fab fa-css3-alt fa-7x"></i></li>
+                    <li><i class="fab fa-js fa-7x"></i></li>
+                    <li><i class="fab fa-bootstrap fa-7x"></i></li>
+                    <li><i class="fab fa-sass fa-7x"></i></li>
+                    <li><i class="fab fa-node-js fa-7x"></i></li>
+                    <li><i class="fab fa-npm fa-7x"></i></li>
+                    <li><i class="fab fa-react fa-7x"></i></li>
+                    <li><i class="fab fa-python fa-7x"></i></li>
+                </ul>
+            </section>
+            <a id="projects" class="anchor"></a>
+            <section id="myProjects" class="fullPage container-fluid">
+                <h2 id="projects-header" class="mt-4 text-center display-3">Projects</h2>
+                <div class="fullPage projectsDiv" id="projectsPage"></div>
+            </section>
+        </main>
+        <footer id="myContactInfo" class="page-footer d-flex flex-column">
             <ul class="text-center d-flex flex-row justify-content-around align-items-center">
                 <li>
                     <a class="footer-icon" target="_blank" href="tel:217-343-1348">
