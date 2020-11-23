@@ -70,5 +70,14 @@
         "available": true,
         "url": "https://socially-distant-birthday.firebaseapp.com/",
         "githubUrl": "https://github.com/davideverett89/socially-distant-birthday"
+    },
+    "project10" : {
+        "title": "Vending Machine",
+        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1606165077/ecwo6ogv/vending-machine-2_grjl2n.png",
+        "description": "A vending mahcine UI allowing users to insert quarters and purchase sodas.",
+        "technologiesUsed": "Vue.js, Sass, Bootstrap, Axios, Firebase.",
+        "available": true,
+        "url": "https://eduity-vending-machine.web.app/",
+        "githubUrl": "https://github.com/davideverett89/eduity-vending-machine"
     }
 }
