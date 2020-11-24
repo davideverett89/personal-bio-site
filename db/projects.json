@@ -9,13 +9,13 @@
         "githubUrl": "https://github.com/davideverett89/pet-adoption"
     },
     "project2" : {
-        "title": "Group Project: Band Websites-Battleheart",
-        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1596824298/ecwo6ogv/Battleheart_bigv5u.png",
-        "description": "Welcome to the website for the band Battleheart!  This was my first group project at NSS.",
+        "title": "Sorting Hat",
+        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1594915344/ecwo6ogv/sortingHat-screenshot_vvrlqi.png",
+        "description": "Just like the Sorting Hat in the Harry Potter series, this app will take your name and assign you to a Hogwarts house.  Students can also be expelled so be on your best behavior!",
         "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         "available": true,
-        "url": "https://bands-battleheart.firebaseapp.com/",
-        "githubUrl": "https://github.com/davideverett89/bands-battleheart"
+        "url": "https://sorting-hat-e963d.firebaseapp.com/",
+        "githubUrl": "https://github.com/davideverett89/sorting-hat"
     },
     "project3" : {
         "title": "Group Project: Chatty",
@@ -25,15 +25,6 @@
         "available": true,
         "url": "https://chatty-pitcherplants.firebaseapp.com/",
         "githubUrl": "https://github.com/davideverett89/chatty-pitcherplants"
-    },
-    "project4" : {
-        "title": "Sorting Hat",
-        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1594915344/ecwo6ogv/sortingHat-screenshot_vvrlqi.png",
-        "description": "Just like the Sorting Hat in the Harry Potter series, this app will take your name and assign you to a Hogwarts house.  Students can also be expelled so be on your best behavior!",
-        "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-        "available": true,
-        "url": "https://sorting-hat-e963d.firebaseapp.com/",
-        "githubUrl": "https://github.com/davideverett89/sorting-hat"
     },
     "project5" : {
         "title": "Bear Watcher",
@@ -54,6 +45,24 @@
         "githubUrl": "https://github.com/davideverett89/pinterest"
     },
     "project7" : {
+        "title": "Mushroom Picker",
+        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1606164187/ecwo6ogv/mushroomPicker1_x7gr6e.png",
+        "description": "This app allows the user to pick random mushrooms from a forest and place them in their basket, given they are not poisonous or deadly.",
+        "technologiesUsed": "React, Sass, Bootstrap",
+        "available": true,
+        "url": "https://mushroom-picker-1d9ca.web.app/",
+        "githubUrl": "https://github.com/davideverett89/mushroom-picker"
+    },
+    "project8" : {
+        "title": "Sports Roster",
+        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1606164681/ecwo6ogv/sports-roster1_yfq0cn.png",
+        "description": "Log in to this app and see the St. Louis Cardinals' starting roster for the current day.",
+        "technologiesUsed": "React, Sass, Bootstrap",
+        "available": true,
+        "url": "https://sports-roster-dba38.web.app/",
+        "githubUrl": "https://github.com/davideverett89/sports-roster"
+    },
+    "project9" : {
         "title": "Apparty",
         "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1594915309/ecwo6ogv/apparty-screenshot_f9xj8p.png",
         "description": "A socially distant birthday tracking and celebration app.  Create a birthday event for a friend, invite all your other friends, and remind that special someone that life still has meaning!",
@@ -61,5 +70,14 @@
         "available": true,
         "url": "https://socially-distant-birthday.firebaseapp.com/",
         "githubUrl": "https://github.com/davideverett89/socially-distant-birthday"
+    },
+    "project10" : {
+        "title": "Vending Machine",
+        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1606165077/ecwo6ogv/vending-machine-2_grjl2n.png",
+        "description": "A vending mahcine UI allowing users to insert quarters and purchase sodas.",
+        "technologiesUsed": "Vue.js, Sass, Bootstrap, Axios, Firebase.",
+        "available": true,
+        "url": "https://eduity-vending-machine.web.app/",
+        "githubUrl": "https://github.com/davideverett89/eduity-vending-machine"
     }
 }
