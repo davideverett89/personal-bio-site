@@ -14,17 +14,20 @@ const navbarClickEvents = () => {
     $('#techSection').addClass('hide');
     $('#projectSection').addClass('hide');
     $('#bioSection').removeClass('hide');
+    // $('.content').removeClass('hide');
   });
 
   $('body').on('click', '#navToTechnologies', () => {
     $('#bioSection').addClass('hide');
     $('#projectSection').addClass('hide');
     $('#techSection').removeClass('hide');
+    // $('.content').removeClass('hide');
   });
 
   $('body').on('click', '#navToProjects', () => {
     $('#bioSection').addClass('hide');
     $('#techSection').addClass('hide');
+    // $('.content').addClass('hide');
     $('#projectSection').removeClass('hide');
   });
 };

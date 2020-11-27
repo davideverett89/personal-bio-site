@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 .wrap {
     position: absolute;
     width: 100%;
@@ -29,6 +33,10 @@
     overflow: auto;
 }
 
+.content {
+    height: 100vh;
+}
+
 .my-logo {
     width: 75px;
     height: 75px;
@@ -48,7 +56,7 @@
 }
 
 .bio {
-    line-height: 2;
+    line-height: 2.5;
 }
 
 .tech {
@@ -57,7 +65,7 @@
 }
 
 .tech li {
-    margin: 10px;
+    margin: 30px;
 }
 
 // * {
