@@ -52,8 +52,13 @@ body {
     font-size: 1.25rem;
 }
 
+h1 {
+    font-size: 3vw;
+}
+
 .bio {
     line-height: 2.5;
+    font-size: 1vw;
 }
 
 .tech {
@@ -63,6 +68,10 @@ body {
 
 .tech li {
     margin: 30px;
+}
+
+.tech li i:hover {
+    color: gray;
 }
 
 .contact-links {
@@ -78,10 +87,10 @@ body {
 
 .contact-links li {
     margin: 10px;
-    .footer-icon {
+    .contact-icon {
         color: black;
     }
-    .footer-icon:hover {
+    .contact-icon:hover {
         color: gray;
     }
 }

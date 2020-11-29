@@ -9,12 +9,12 @@
     <body>
         <main class="container-fluid">
             <div class="row wrap">
-                <div class="col-6 p-0 left-side half">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 p-0 left-side half">
                     <img class="img-fluid my-image" src="https://imgur.com/iaZDwxK.png" alt="My Picture" />
                 </div>
-                <div class="col-6 p-0 right-side half">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 p-0 right-side half">
                     <div class="d-flex flex-column justify-content-center align-items-center">
-                        <nav id="nav-main" class="navbar navbar-expand-lg navbar-light align-self-start">
+                        <nav id="nav-main" class="navbar navbar-expand-lg navbar-light align-self-start col-12">
                             <a class="navbar-brand" href="index.html">
                                 <img class="my-logo" src="./screenshots/_Logo.png" alt="Logo">
                             </a>
@@ -27,7 +27,7 @@
                                         <button class="nav-link btn btn-link" id="navToBio">Bio</button>
                                     </li>
                                     <li class="nav-item lead">
-                                        <button class="nav-link btn btn-link" id="navToTechnologies">Technologies</button>
+                                        <button class="nav-link btn btn-link" id="navToTechnologies">Tech Stack</button>
                                     </li>
                                     <li class="nav-item lead">
                                         <button class="nav-link btn btn-link" id="navToProjects">Projects</button>
@@ -46,75 +46,85 @@
                             </div>
                             <div id="myContactInfo" class="contact-links">
                                 <ul class="text-center d-flex flex-row justify-content-around align-items-center">
-                                    <li>
-                                        <a class="footer-icon" target="_blank" href="tel:217-343-1348">
-                                            <i class="fas fa-phone-square fa-7x"></i>
+                                    <li class="d-flex flex-column">
+                                        <a class="contact-icon" href="../resume/David_Everett Resume.pdf" download>
+                                            <i class="fas fa-file fa-7x"></i>
                                         </a>
+                                        <span>Resume</span>
                                     </li>
-                                    <li>
-                                        <a class="footer-icon" target="_blank" href="https://www.google.com/maps/place/Nashville,+TN/@36.186314,-87.0654323,10z/data=!3m1!4b1!4m5!3m4!1s0x8864ec3213eb903d:0x7d3fb9d0a1e9daa0!8m2!3d36.1626638!4d-86.7816016">
-                                            <i class="fas fa-map-marker-alt fa-7x"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="footer-icon" target="_blank" href="https://github.com/davideverett89">
+                                    <li class="d-flex flex-column">
+                                        <a class="contact-icon" target="_blank" href="https://github.com/davideverett89">
                                             <i class="fab fa-github fa-7x"></i>
                                         </a>
+                                        <span>GitHub</span>
                                     </li>
-                                    <li>
-                                        <a class="footer-icon" target="_blank" href="https://www.linkedin.com/in/david-everett-22b17171/">
+                                    <li class="d-flex flex-column">
+                                        <a class="contact-icon" target="_blank" href="https://www.linkedin.com/in/david-everett-22b17171/">
                                             <i class="fab fa-linkedin fa-7x"></i>
                                         </a>
+                                        <span>LinkedIn</span>
                                     </li>
-                                    <li>
-                                        <a class="footer-icon" target="_blank" href="mailto:davideverett1989@gmail.com">
+                                    <li class="d-flex flex-column">
+                                        <a class="contact-icon" target="_blank" href="mailto:davideverett1989@gmail.com">
                                             <i class="far fa-envelope-open fa-7x"></i>
                                         </a>
+                                        <span>Email</span>
                                     </li>
                                 </ul>
                             </div>
                         </section>
                         <section id="techSection" class="my-5 px-5 mx-auto hide">
-                            <h1 class="tech-header">Technologies I Use:</h1>
+                            <h1 class="tech-header">Technologies That I Use:</h1>
                             <ul class="mt-5 mx-auto tech d-flex flex-wrap justify-content-center align-items-center">
-                                <li>
+                                <li class="d-flex flex-column justify-content-center align-items-center">
                                     <i class="fab fa-git-alt fa-7x"></i>
+                                    <span>Git</span>
                                 </li>
-                                <li>
+                                <li class="d-flex flex-column justify-content-center align-items-center">
                                     <i class="fab fa-github fa-7x"></i>
+                                    <span>GitHub</span>
                                 </li>
-                                <li>
+                                <li class="d-flex flex-column justify-content-center align-items-center">
                                     <i class="fab fa-html5 fa-7x"></i>
+                                    <span>HTML5</span>
                                 </li>
-                                <li>
+                                <li class="d-flex flex-column justify-content-center align-items-center">
                                     <i class="fab fa-css3-alt fa-7x"></i>
+                                    <span>CSS3</span>
                                 </li>
-                                <li>
+                                <li class="d-flex flex-column justify-content-center align-items-center">
                                     <i class="fab fa-js fa-7x"></i>
+                                    <span>ES6 JavaScript</span>
                                 </li>
-                                <li>
+                                <li class="d-flex flex-column justify-content-center align-items-center">
                                     <i class="fab fa-bootstrap fa-7x"></i>
+                                    <span>Bootstrap</span>
                                 </li>
-                                <li>
+                                <li class="d-flex flex-column justify-content-center align-items-center">
                                     <i class="fab fa-sass fa-7x"></i>
+                                    <span>SASS</span>
                                 </li>
-                                <li>
+                                <li class="d-flex flex-column justify-content-center align-items-center">
                                     <i class="fab fa-node-js fa-7x"></i>
+                                    <span>Node.js</span>
                                 </li>
-                                <li>
+                                <li class="d-flex flex-column justify-content-center align-items-center">
                                     <i class="fab fa-npm fa-7x"></i>
+                                    <span>NPM</span>
                                 </li>
-                                <li>
+                                <li class="d-flex flex-column justify-content-center align-items-center">
                                     <i class="fab fa-react fa-7x"></i>
+                                    <span>React.js</span>
                                 </li>
-                                <li>
+                                <li class="d-flex flex-column justify-content-center align-items-center">
                                     <i class="fab fa-python fa-7x"></i>
+                                    <span>Python</span>
                                 </li>
                             </ul>
                         </section>
                     </div>
                     <section id="projectSection" class="my-5 px-5 mx-auto d-flex flex-column justify-content-center align-items-start hide">
-                        <h1 class="projects-header">Projects:</h1>
+                        <h1 class="projects-header">NSS Portfolio:</h1>
                         <div id="projectsPage" class="mt-5 mx-auto d-flex flex-wrap justify-content-center align-items-start"></div>
                     </section>
                 </div>
