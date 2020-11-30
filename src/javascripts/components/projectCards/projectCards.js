@@ -8,7 +8,7 @@ const createProjectCards = () => {
       let domString = '';
       projects.forEach((project) => {
         if (project.available) {
-          domString += '<div class="card-divider col-12 col-sm-12 col-md-4 col-lg-6 col-xl-6">';
+          domString += '<div class="card-divider col-12 col-sm-12 col-md-6 col-lg-12 col-xl-6">';
           domString += '  <div class="card">';
           domString += `    <img class="card-img-top" src="${project.screenshot}" alt="${project.title}">`;
           domString += '    <div class="card-body">';
