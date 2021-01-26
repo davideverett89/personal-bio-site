@@ -83,7 +83,7 @@
     "project11" : {
         "title": "Metro Nashville Active Dispatch",
         "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1611676010/ecwo6ogv/mnpd_active_dispatch_scanner1_lk9pvm.png",
-        "description": "An application that pulls data from Nashville's Open Data Portal that allows users to keep track of active police dispatches throughout Nashville.",
+        "description": "An application that pulls data from Nashville's Open Data Portal and allows users to keep track of active police dispatches throughout Nashville.",
         "technologiesUsed": "Vue.js, Sass, Bootstrap, Google Geocoding API, Google Maps JavaScript API",
         "available": true,
         "url": "https://mnpd-active-dispatch.web.app",
