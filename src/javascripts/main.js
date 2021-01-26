@@ -1,6 +1,12 @@
 import '../styles/main.scss';
 import 'bootstrap';
+import firebase from 'firebase/app';
+import apiKeys from './helpers/apiKeys.json';
+
 import projectCards from './components/projectCards/projectCards';
+
+import bucketData from './helpers/data/bucketData';
+
 
 const navbarClickEvents = () => {
   $('body').on('click', '#navToBio', () => {
@@ -23,8 +29,10 @@ const navbarClickEvents = () => {
 };
 
 const init = () => {
-  projectCards.createProjectCards();
+  firebase.initializeApp(apiKeys.firebaseKeys);
   navbarClickEvents();
+  $('body').on('click', '#downloadResume', bucketData.downloadResume);
+  projectCards.createProjectCards();
 };
 
 init();
