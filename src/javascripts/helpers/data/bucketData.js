@@ -6,7 +6,7 @@ import apiKeys from '../apiKeys.json';
 const { storageBucket } = apiKeys.firebaseKeys;
 
 const downloadResume = () => {
-  const resumeReference = firebase.storage().refFromURL(`gs://${storageBucket}/David-Everett-Resume.pdf`);
+  const resumeReference = firebase.storage().refFromURL(`gs://${storageBucket}/David_Everett_Resume.pdf`);
   resumeReference.getDownloadURL()
     .then((url) => window.open(url, '_blank'))
     .catch((err) => {
