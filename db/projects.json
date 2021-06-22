@@ -88,5 +88,14 @@
         "available": true,
         "url": "https://mnpd-active-dispatch.web.app",
         "githubUrl": "https://github.com/davideverett89/metro-nashville-police-scanner"
+    },
+    "project12" : {
+        "title": "VirtuMarket",
+        "screenshot": "https://res.cloudinary.com/nashville-software-school/image/upload/v1624327861/ecwo6ogv/vm-consumer-market1_rddx1o.png",
+        "description": "An eCommerce application for local Farmers' Markets.",
+        "technologiesUsed": "React, React Router DOM, Sass, Bootstrap, Django REST Framework",
+        "available": true,
+        "url": "https://virtumarket-f8920.web.app/",
+        "githubUrl": "https://github.com/davideverett89/virtumarket-react-client"
     }
 }
